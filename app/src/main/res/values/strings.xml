@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dices</string>
+    <string name="dices_amount">DICES_AMOUNT</string>
+    <string name="faces_amount">FACES_AMOUNT</string>
+</resources>

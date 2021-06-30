@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mensagemTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aperte no botão para jogar o dado!"
+        />
+
+    <Button
+        android:id="@+id/jogarBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jogar!"
+        android:onClick="onClick"
+        />
+
+    <TextView
+        android:id="@+id/resultadoTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Não lançado"
+        />
+
+    <ScrollView
+        android:id="@+id/sv_dices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_dices"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </ScrollView>
+</LinearLayout>
